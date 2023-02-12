@@ -48,10 +48,7 @@ brute:
       max: 1000
 
 #### whitelisting URIs ####
-com:
-  food:
-   swipe:
-    publicURIs: {\
+com.food.swipe.publicURIs: {\
   '/v1/users/register':'POST',\
   '/v1/users/login':'GET'}
 
